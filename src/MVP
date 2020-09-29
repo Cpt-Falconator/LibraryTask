@@ -26,8 +26,8 @@ At least 3 of the following items:
 
 
 ALL of the following: 
-- Check out item 															[-]
-- Check in item 															[-]
+- Check out item 															[x]
+- Check in item 															[x]
 - Add item 																	[ ]
 - Remove item 																[ ]
 - Update item 																[ ]

@@ -5,12 +5,22 @@ public abstract class Items {
 	private static int itemID;
 	private boolean isAvailable = true;
 	
-	public void checkOut() {
-		this.isAvailable = false;
+	public int getItemID() {
+		return this.itemID;
 	}
 	
-	public void checkIn() {
-		this.isAvailable = true;
+	public void setItemID(int itemID) {
+		this.itemID = itemID;
 	}
+	
+	public boolean getAvailable() {
+		return this.isAvailable;
+	}
+	
+	public void setAvailable(boolean isAvailable) {
+		this.isAvailable = isAvailable;
+	}
+	
+	
 	
 }
