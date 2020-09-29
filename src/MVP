@@ -5,7 +5,7 @@ Create a library system with functionality to manage items and people within the
 
 
 Rules:  
-- At least one Abstract Class must be implemented. 							[ ]
+- At least one Abstract Class must be implemented. 							[x]
 - Each item should have at least 1 additional attribute unique to itself. 	[ ]
 - Use of polymorphism and inheritance										[ ]
 - Correct usage of access modifiers 										[ ]
@@ -26,8 +26,8 @@ At least 3 of the following items:
 
 
 ALL of the following: 
-- Check out item 															[ ]
-- Check in item 															[ ]
+- Check out item 															[-]
+- Check in item 															[-]
 - Add item 																	[ ]
 - Remove item 																[ ]
 - Update item 																[ ]
