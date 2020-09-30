@@ -6,22 +6,22 @@ Create a library system with functionality to manage items and people within the
 
 Rules:  
 - At least one Abstract Class must be implemented. 							[x]
-- Each item should have at least 1 additional attribute unique to itself. 	[ ]
+- Each item should have at least 1 additional attribute unique to itself. 	[x]
 - Use of polymorphism and inheritance										[ ]
-- Correct usage of access modifiers 										[ ]
-- Naming conventions adhered to												[ ]
+- Correct usage of access modifiers 										[x]
+- Naming conventions adhered to												[x]
 - Commenting only where necessary. 											[ ]
 
 
 At least 3 of the following items: 
-- Books 																	[ ]
-- Maps  																	[ ]
+- Books 																	[x]
+- Maps  																	[x]
 - Government documents 														[ ]
 - Media resources (Camera etc.) 											[ ]
 - Newspapers 																[ ]
 - Journals 																	[ ]
 - Magazines 																[ ]
-- Dissertations 															[ ]
+- Dissertations 															[x]
 - Thesis 																	[ ]
 
 
@@ -31,7 +31,7 @@ ALL of the following:
 - Add item 																	[x]
 - Remove item 																[ ]
 - Update item 																[ ]
-- Register person 															[ ]
+- Register person 															[-]
 - Delete person 															[ ]
 - Update person 															[ ]
  

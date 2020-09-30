@@ -2,15 +2,20 @@ package library;
 
 import java.util.ArrayList;
 
+import humans.Person;
+
 public class Library {
 
 	private int collectionSize;
 	private ArrayList<Items> libraryContents;
+	private ArrayList<Person> registeredCustomers;
 	
 	public Library()
 	{
+		super();
 		collectionSize = 0;
 		libraryContents = new ArrayList<Items>();
+		registeredCustomers = new ArrayList<Person>();
 	}
 	
 	public Items checkOutItem(int itemID) 
@@ -18,9 +23,10 @@ public class Library {
 		Items toCheckout = null;
 		for(Items itemSearch : libraryContents) 
 		{
-			if(itemID == itemSearch.getItemID())
+			if(itemID == itemSearch.getItemID()-1)
 			{
 				toCheckout = itemSearch;
+				break;
 			}
 		}
 		toCheckout.setAvailable(false);
@@ -41,7 +47,7 @@ public class Library {
 	public void addItem(Items itemToAdd)
 	{
 		libraryContents.add(itemToAdd);
-		setCollectionSize();
+		collectionSize++;
 	}
 	
 	public int getCollectionSize()
@@ -49,9 +55,9 @@ public class Library {
 		return this.collectionSize;
 	}
 	
-	public void setCollectionSize() 
+	public void registerPerson(Person person)
 	{
-		collectionSize++;
+		registeredCustomers.add(person);
 	}
 }
 
